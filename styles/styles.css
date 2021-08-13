@@ -21,6 +21,12 @@ a {
     margin: auto 1rem;
     text-decoration: none;
     color: white;
+    transition: color 0.5s;
+}
+
+a:hover,
+a:active{
+    color: black;
 }
 
 .container {
@@ -51,6 +57,12 @@ a {
 .icons {
     display: flex;
     justify-content: space-between;
+    transition: height .5s;
+}
+
+.icons svg:hover{
+    color: white;
+    height: 30px;
 }
 
 .content {
@@ -81,14 +93,21 @@ a {
 }
 
 .text-cont {
+    cursor: context-menu;
     opacity: 0.5;
     z-index: 1;
     position: absolute;
-    right: 5rem;
-    top: 15rem;
+    font-size: 5rem;
+    text-align: right;
+    right: 7rem;
+    top: 1rem;
     width: 30rem;
     transform: translateX(40rem);
     transition: transform 1s ease-out;
+}
+
+.logo-img{
+    width: 250px;
 }
 
 .jumbotron {
@@ -150,6 +169,7 @@ a {
     left: 3.5rem;
     top: 1.25rem;
     transition: height .5s ease-out;
+    
 }
 
 .horz {
@@ -219,10 +239,61 @@ a {
     background: rgba(70, 68, 68, 0.7);
 }
 
+.featured{
+    text-align: center;
+}
+
+.featured h1{
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+.featured h2{
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.card-cont{
+    display: grid;
+    grid-template-columns: repeat(3,27%);
+    column-gap: 2rem;
+    justify-content: center;
+}
+
+.card{
+    background: #f5f5f5;
+    transition: height .5s, box-shadow .5s;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 10px 10px rgba(112, 103, 103, 0.514);
+}
+
+.feat-img{
+    height: 300px;
+}
+
+.feat-txt{
+    font-size: 1rem;
+    padding: 2rem;
+}
+
 .footer {
     grid-area: footer;
     background: black;
     color: white;
     height: 20rem;
     margin-top: 3rem;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 40% 40% 15%;
+}
+
+.quick-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer a:hover{
+    color: gray;
 }
