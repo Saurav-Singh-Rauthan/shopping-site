@@ -13,11 +13,11 @@ const displayModal = () => {
 }
 
 const hideModal = () => {
-    sidebar.style.transform = 'translateX(100rem)';
+    sidebar.style.transform = 'translateX(100%)';
     setTimeout(() => {
         modal.style.display = 'none';
         sidebar.style.display = 'none';
-    },400)
+    },500)
 }
 
 
