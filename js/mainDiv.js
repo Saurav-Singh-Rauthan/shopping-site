@@ -4,7 +4,16 @@ var img = document.querySelector('.img-cont')
 
 // console.dir(text);
 
-mainDiv.addEventListener('mousemove', () => {
+let move = () => {
     text.style.transform = 'translateX(0)'
     img.style.transform = 'translateX(0)'
+}
+
+mainDiv.addEventListener('mousemove', () => {
+    move();
 })
+
+mainDiv.addEventListener('touchstart', () => {
+    move();
+})
+
