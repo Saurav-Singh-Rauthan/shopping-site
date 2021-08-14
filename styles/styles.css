@@ -412,7 +412,7 @@ a:active{
         background: rgba(70, 68, 68, 0.7);
         position: relative;
         text-align: center;
-        height: 20rem;
+        height: 18rem;
         padding: .5rem;
     }
     
@@ -469,7 +469,7 @@ a:active{
 
     .shoe-1,
     .shoe-2{
-        padding: 0;
+        padding: 1rem;
         grid-template-columns: 100%;
     }
 
@@ -513,6 +513,102 @@ a:active{
     .icons{
         display: none;
     }
+
+    .main-first {
+        grid-template-columns: 100%;
+    }
+
+    .jumbotron {
+        background: rgba(70, 68, 68, 0.7);
+        position: relative;
+        text-align: center;
+        height: 23rem;
+        padding: .5rem;
+    }
+    
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+    
+    .jumbotron p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .img-cont{
+        width : 95%;
+        height : auto;
+        left: 1rem;
+    }
+    
+    .text-cont{
+        text-align: center;
+        font-size: 3rem;
+        right: 6rem;
+        width: 10rem;
+        transition: transform .5s;
+        transform: translateX(0);
+    }
+
+    .shop-btn{
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        bottom: -3rem;
+    }
+
+    .logo-img {
+        width: 125px;
+    }
+
+    .featured h1{
+        font-size: 2rem;
+    }
+
+    .featured h2{
+        font-size: 1.5rem;
+    }
+
+    .feat-img{
+        height: 300px;
+    }
+
+    .card-cont{
+        grid-template-columns: 90%;
+        row-gap: 1.5rem;
+    }
+
+    .shoe-1,
+    .shoe-2{
+        padding: 2rem;
+        grid-template-columns: 100%;
+    }
+
+    .shoe-desc{
+        padding: 1.5rem;
+        width: 85%;
+        margin: 2rem auto;
+    }
+
+    .shoe-img{
+        height: 20rem;
+        justify-self: center;
+    }
+
+    .shoe-img:hover{
+        height: 23rem;
+    }
+
+    .vert,
+    .vert2,
+    .horz,
+    .horz2{
+        display: none;
+    }
+
+    .footer{
+        grid-template-columns: 100%;
+        text-align: center;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
@@ -527,8 +623,100 @@ a:active{
     .icons{
         display: none;
     }
-}
 
-@media (min-width:1025px) {
+    .main-first {
+        grid-template-columns: 100%;
+    }
+
+    .jumbotron {
+        background: rgba(70, 68, 68, 0.7);
+        position: relative;
+        text-align: center;
+        height: 23rem;
+        padding: .5rem;
+    }
     
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+    
+    .jumbotron p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .img-cont{
+        width : 95%;
+        height : auto;
+        left: 1rem;
+    }
+    
+    .text-cont{
+        text-align: center;
+        font-size: 4rem;
+        right: 6rem;
+        width: 10rem;
+        transition: transform .5s;
+        /* transform: translateX(0); */
+    }
+
+    .shop-btn{
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        bottom: -3rem;
+    }
+
+    .logo-img {
+        width: 125px;
+    }
+
+    .featured h1{
+        font-size: 2rem;
+    }
+
+    .featured h2{
+        font-size: 1.5rem;
+    }
+
+    .feat-img{
+        height: 300px;
+    }
+
+    .card-cont{
+        grid-template-columns: 90%;
+        row-gap: 1.5rem;
+    }
+
+    .shoe-1,
+    .shoe-2{
+        padding: 2rem;
+        grid-template-columns: 100%;
+    }
+
+    .shoe-desc{
+        padding: 1.5rem;
+        width: 85%;
+        margin: 2rem auto;
+    }
+
+    .shoe-img{
+        height: 20rem;
+        justify-self: center;
+    }
+
+    .shoe-img:hover{
+        height: 23rem;
+    }
+
+    .vert,
+    .vert2,
+    .horz,
+    .horz2{
+        display: none;
+    }
+
+    .footer{
+        grid-template-columns: 100%;
+        text-align: center;
+    }
 }
