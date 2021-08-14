@@ -436,6 +436,8 @@ a:active{
         font-size: 2rem;
         right: 6rem;
         width: 10rem;
+        transition: transform .5s;
+        transform: translateX(0);
     }
 
     .shop-btn{
