@@ -197,6 +197,7 @@ a:active{
     width: 30rem;
     transform: translateX(40rem);
     transition: transform 1s ease-out;
+    display: none;
 }
 
 .logo-img{
