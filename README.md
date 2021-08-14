@@ -16,7 +16,6 @@ live demo for the website can be seen here : [live demo](https://saurav-singh-ra
 - Javascript  
 
 # Images 📷 
-* ![Image 1](https://github.com/Saurav-Singh-Rauthan/portfolio-wd/blob/main/images/Annotation%202021-08-08%20181032.jpg)  
-* ![Image 2](https://github.com/Saurav-Singh-Rauthan/portfolio-wd/blob/main/images/Annotation%202021-08-08%20181101.jpg)  
-* ![Image 3](https://github.com/Saurav-Singh-Rauthan/portfolio-wd/blob/main/images/Annotation%202021-08-08%20193229.jpg)  
+* ![Image 1](https://github.com/Saurav-Singh-Rauthan/shopping-site/blob/main/images/Annotation%202021-08-14%20161237.jpg?raw=true)  
+* ![Image 2](https://github.com/Saurav-Singh-Rauthan/shopping-site/blob/main/images/Annotation%202021-08-14%20161324.jpg?raw=true)  
 
