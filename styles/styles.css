@@ -195,9 +195,9 @@ a:active{
     right: 7rem;
     top: 1rem;
     width: 30rem;
-    transform: translateX(40rem);
+    transform: translateX(150%);
     transition: transform 1s ease-out;
-    display: none;
+    /* display: none; */
 }
 
 .logo-img{
@@ -436,8 +436,7 @@ a:active{
         font-size: 2rem;
         right: 6rem;
         width: 10rem;
-        transition: transform .5s;
-        transform: translateX(0);
+        /* transform: translateX(0); */
     }
 
     .shop-btn{
@@ -546,8 +545,7 @@ a:active{
         font-size: 3rem;
         right: 6rem;
         width: 10rem;
-        transition: transform .5s;
-        transform: translateX(0);
+        /* transform: translateX(0); */
     }
 
     .shop-btn{

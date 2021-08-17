@@ -7,7 +7,7 @@ var img = document.querySelector('.img-cont')
 let move = () => {
     text.style.display='block'
     setTimeout(() => {
-        text.style.transform = 'translateX(0)'
+        text.style.transform = 'translateX(0%)'
         img.style.transform = 'translateX(0)'
     },300)
     
